@@ -1,16 +1,23 @@
 {
   "name": "i18n-t",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "An SDK for extracting and translating Vue i18n keys using Youdao's translation API, with multi-language JSON output support.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "i18n"
+    "i18n",
+    "translation",
+    "Vue",
+    "SDK",
+    "Youdao",
+    "multi-language",
+    "JSON",
+    "localization"
   ],
-  "author": "Zeo",
-  "license": "ISC",
+  "author": "Zeao",
+  "license": "MIT",
   "dependencies": {
     "@babel/parser": "^7.26.1",
     "@babel/traverse": "^7.25.9",
