@@ -4,16 +4,16 @@ const path = require('path');
 
 async function main() {
     const projectDir = path.resolve(__dirname, '../pages');
-    const targetLang = 'en';
+    const targetLanges = ['zh-CHT']; // 'yue', 'en', 'zh-CHT'
 
     const keys = extractTranslationsFromProject(projectDir);
     console.log(`Found ${keys.length} translation keys`);
 
     console.log('Translating keys...');
-    const translations = await translateKeys(keys, targetLang);
+    const translations = await translateKeys(keys, targetLanges);
 
     console.log('Saving translations...');
-    await saveTranslations(translations, targetLang);
+    await saveTranslations(translations, targetLanges);
     console.log('Translation process completed!');
 }
 
