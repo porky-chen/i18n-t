@@ -1,0 +1,19 @@
+{
+  "name": "i18n-t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.26.1",
+    "@babel/traverse": "^7.25.9",
+    "axios": "^1.7.7",
+    "crypto-js": "^4.2.0",
+    "fs-extra": "^11.2.0"
+  }
+}
